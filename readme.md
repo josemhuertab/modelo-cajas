@@ -35,25 +35,15 @@ Dominar este concepto es esencial para crear interfaces ordenadas y responsivas.
 ## 🚀 Características
 
 ✅ Interfaz clara y ordenada  
-✅ Paleta de colores armoniosa  
 ✅ Cajas inspeccionables para entender padding, border y margin  
 ✅ Botones con interactividad y transición  
-✅ Responsivo en dispositivos móviles
+✅ Responsividad básica para dispositivos móviles
 
 ---
 
-## 📂 Estructura del proyecto
-
-```
-📦 modelo-de-cajas-css
-├── index.html
-├── styles.css
-└── README.md
-```
-
 ## ✍️ Autor
 
-Desarrollado por José Huerta (https://github.com/josemhuertab) para práctica y referencia.
+Desarrollado por José Huerta (https://github.com/josemhuertab) para actividad de Curso Desarrollo de Aplicaciones Front End Trainne (UX/UI) - 2025
 
 ---
 
