@@ -2,10 +2,10 @@
 
 Este proyecto muestra de forma práctica cómo funciona el **Modelo de Cajas de CSS** aplicando:
 
-✅ Contenedor principal con `margin`, `border`, `padding` y `width`.
-✅ Uso de `header` y `footer` con colores contrastantes.
-✅ Botones estilizados aplicando el modelo de cajas con efectos `hover`.
-✅ Responsividad usando **media queries**.
+✅ Contenedor principal con `margin`, `border`, `padding` y `width`
+✅ Uso de `header` y `footer` con colores contrastantes
+✅ Botones estilizados aplicando el modelo de cajas con efectos `hover`
+✅ Responsividad usando **media queries**
 ✅ **Metodología BEM** para mantener un código ordenado y escalable.
 
 ---
