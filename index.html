@@ -5,7 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Modelo de Cajas</title>
     <link rel="stylesheet" href="styles.css" />
+    <style>
+      html {
+        scroll-behavior: smooth;
+      }
+    </style>
   </head>
+
   <body class="page">
     <header class="header">
       <h1 class="header__title">Modelo de Cajas en CSS</h1>
@@ -23,17 +29,104 @@
           Entender cómo funciona te permite diseñar interfaces bien
           estructuradas y responsivas.
         </p>
-
         <div class="button-group">
           <button class="button">Aceptar</button>
           <button class="button">Cancelar</button>
-          <button class="button">Más información</button>
+          <a href="#contacto" class="button">Contacto</a>
         </div>
       </div>
     </main>
 
+    <section class="products">
+      <h2 class="products__title">Nuestros Productos</h2>
+      <p class="products__description">
+        En esta sección visualizamos productos utilizando el modelo de cajas y
+        Flexbox, distribuyendo 12 productos de forma responsiva. Cada producto
+        es una caja con imagen y descripción para practicar el diseño de
+        interfaces con CSS.
+      </p>
+      <div class="products__grid">
+        <!-- 12 productos de ejemplo -->
+        <div class="product-card">
+          <img src="img/productos/producto-1.jpg" alt="Producto 1" />
+          <p>Producto 1</p>
+        </div>
+        <div class="product-card">
+          <img src="img/productos/producto-2.jpg" alt="Producto 2" />
+          <p>Producto 2</p>
+        </div>
+        <div class="product-card">
+          <img src="img/productos/producto-3.jpg" alt="Producto 3" />
+          <p>Producto 3</p>
+        </div>
+        <div class="product-card">
+          <img src="img/productos/producto-4.jpg" alt="Producto 4" />
+          <p>Producto 4</p>
+        </div>
+        <div class="product-card">
+          <img src="img/productos/producto-5.jpg" alt="Producto 5" />
+          <p>Producto 5</p>
+        </div>
+        <div class="product-card">
+          <img src="img/productos/producto-6.jpg" alt="Producto 6" />
+          <p>Producto 6</p>
+        </div>
+        <div class="product-card">
+          <img src="img/productos/producto-7.jpg" alt="Producto 7" />
+          <p>Producto 7</p>
+        </div>
+        <div class="product-card">
+          <img src="img/productos/producto-8.jpg" alt="Producto 8" />
+          <p>Producto 8</p>
+        </div>
+        <div class="product-card">
+          <img src="img/productos/producto-9.jpg" alt="Producto 9" />
+          <p>Producto 9</p>
+        </div>
+        <div class="product-card">
+          <img src="img/productos/producto-10.jpg" alt="Producto 10" />
+          <p>Producto 10</p>
+        </div>
+        <div class="product-card">
+          <img src="img/productos/producto-11.jpg" alt="Producto 11" />
+          <p>Producto 11</p>
+        </div>
+        <div class="product-card">
+          <img src="img/productos/producto-12.jpg" alt="Producto 12" />
+          <p>Producto 12</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact-form" id="contacto">
+      <h2 class="contact-form__title">Contáctanos</h2>
+      <form>
+        <input type="text" placeholder="Nombre" required />
+        <input type="email" placeholder="Correo" required />
+        <textarea placeholder="Comentario" required></textarea>
+        <button type="submit" class="button">Enviar</button>
+      </form>
+    </section>
+
     <footer class="footer">
       <p class="footer__text">&copy; 2025 Todos los derechos reservados.</p>
+      <div class="footer__icons">
+        <a href="#"
+          ><img
+            src="img/footer-icons/fb-icon.png"
+            alt="Facebook"
+            class="footer-icon"
+        /></a>
+        <a href="#"
+          ><img
+            src="img/footer-icons/ig-icon.png"
+            alt="Instagram"
+            class="footer-icon"
+        /></a>
+        <a href="#"
+          ><img src="img/footer-icons/x-icon.png" alt="X" class="footer-icon"
+        /></a>
+      </div>
     </footer>
   </body>
 </html>
