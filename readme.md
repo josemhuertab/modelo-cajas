@@ -66,25 +66,6 @@ Esto permite una experiencia básica y efectiva sin usar JavaScript adicional.
 
 ---
 
-## 📂 Estructura del proyecto
-
-📦 modelo-de-cajas-css
-├── index.html
-├── styles.css
-├── img
-│   └── productos
-│       ├── producto-1.jpg
-│       ├── producto-2.jpg
-│       ├── ...
-│       └── producto-12.jpg
-│   └── footer-icons
-│       ├── fb-icon.png
-│       ├── ig-icon.png
-│       └── x-icon.png
-└── README.md
-
----
-
 ## ✍️ Autor
 
 Desarrollado por José Huerta (https://github.com/josemhuertab) para práctica y referencia.
